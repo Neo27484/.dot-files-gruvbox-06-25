@@ -1,0 +1,20 @@
+window {
+	background-color: rgba(40, 40, 40, 1);
+  border: 5px double #EBDBB2;
+  border-radius: 15px;
+}
+#outer-box {
+  	background-color: rgba(40, 40, 40, 1);
+  border: 5px double #EBDBB2;
+  border-radius: 15px;
+}
+#entry {
+    padding: 7px;
+    color: #ebdbb2;
+    background-color: transparent;
+}
+#entry:selected {
+    background-color: #458588;
+    color: #ebdbb2;
+}
+

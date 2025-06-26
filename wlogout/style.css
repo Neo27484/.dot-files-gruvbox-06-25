@@ -1,0 +1,90 @@
+window {
+  font-family: Hack Nerd Font;
+  font-size: 14pt;
+  color: #ebdbb2;
+  background-color: transparent;  
+}
+button {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 30%;
+  background-color: rgba(40, 40, 40, 1);
+  border-radius: 25px; 
+  border: 5px double #EBDBB2;  
+  border-color: #ebdbb2;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 300px;
+  margin-bottom: 300px;
+  transition:box-shadow 0.75s ease-in-out,
+             background-color 0.45s ease-in-out;
+  text-shadow: 0px 0px 5px #ebdbb2;
+  box-shadow: 6px 6px 3px 4px rgba(08, 08, 08, 1),
+              0px 0px 2px 2px rgba(240, 223, 182, 1),
+              inset 1px 1px 8px 1px rgba(40, 40, 40, 1),
+              inset -1px -1px 8px 1px rgba(40, 40, 40, 1);
+}
+button:hover {
+  background-color: #fe8019;
+  color: #282828;
+  text-shadow: 0px 0px 5px #282828;
+  box-shadow: 6px 6px 3px 4px rgba(08, 08, 08, 1),
+              0px 0px 2px 2px rgba(240, 223, 182, 1),
+              inset 0px 0px 9px 25px rgba(214, 93, 14, 1),
+              inset 0px 0px 12px 11px rgba(40, 40, 40, 1);
+           
+}
+#lock {
+  background-image: image(url("./lock.png"));
+}
+#lock:focus {
+  background-image: image(url("./lock.png"));
+}
+#lock:hover {
+  background-image: image(url("./lock-hover.png"));
+}
+#logout {
+  background-image: image(url("./logout.png"));
+}
+#logout:focus {
+  background-image: image(url("./logout-hover.png"));
+}
+#logout:hover {
+  background-image: image(url("./logout-hover.png"));
+}
+#suspend {
+  background-image: image(url("./sleep.png"));
+}
+#suspend:focus {
+  background-image: image(url("./sleep-hover.png"));
+}
+#suspend:hover {
+  background-image: image(url("./sleep-hover.png"));
+}
+#shutdown {
+  background-image: image(url("./power.png"));
+}
+#shutdown:focus {
+  background-image: image(url("./power-hover.png"));
+}
+#shutdown:hover {
+  background-image: image(url("./power-hover.png"));
+}
+#reboot {
+  background-image: image(url("./restart.png"));
+}
+#reboot:focus {
+  background-image: image(url("./restart-hover.png"));
+}
+#reboot:hover {
+  background-image: image(url("./restart-hover.png"));
+}
+#windows {
+  background-image: image(url("./windows.png"));
+}
+#windows:focus {
+  background-image: image(url("./windows-hover.png"));
+}
+#windows:hover {
+  background-image: image(url("./windows-hover.png"));
+}

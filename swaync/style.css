@@ -1,0 +1,39 @@
+.notification {
+  background: #282828;
+  border-radius: 15px;
+  margin: 5px;
+  padding: 8px;
+  box-shadow: 4px 4px 2px 3px rgba(40, 40, 40, 0.8),
+                0px 0px 2px 2px rgba(240, 223, 182, 1);
+  border: 5px double #EBDBB2;
+}
+.notification-content {
+  background: transparent;
+}
+.close-button {
+  background: #cc241d;
+  color: #ebdbb2;
+  border-radius: 8px;
+  padding: 2px 4px;
+}
+.close-button:hover {
+  background: #fb4934;
+}
+.control-center {
+  background: rgba(29,32,33,0.95);
+  box-shadow: 4px 4px 2px 3px rgba(40, 40, 40, 0.8),
+                0px 0px 2px 2px rgba(240, 223, 182, 1);
+  border: 5px double #EBDBB2;
+  border-radius: 15px;
+}
+.title {
+  color: #b8bb26;
+  font-weight: bold;
+}
+.dnd {
+  background: #3c3836;
+  color: #fbf1c7;
+  border-radius: 10px;
+  padding: 4px 8px;
+}
+
